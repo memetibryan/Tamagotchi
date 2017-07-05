@@ -15,7 +15,7 @@ class Tamagotchi
 
 	def is_alive
 		if @@food_level.eql?(10)	
-	    true
+	    false
 	else
 		false
 		end

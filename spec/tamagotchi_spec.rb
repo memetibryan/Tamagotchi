@@ -5,10 +5,10 @@ describe(Tamagotchi) do
     describe("#tamagotchi")
       it("sets the name and life levels of a new Tamagotchi") do
         my_pet = Tamagotchi.new("lil dragon")
-        expect(my_pet.name()).==("lil dragon")
-        expect(my_pet.food_level()).==(10)
-        expect(my_pet.sleep_level()).==(10)
-        expect(my_pet.activity_level()).==(10)
+        expect(my_pet.name()).eql?("lil dragon")
+        expect(my_pet.food_level()).eql?(10)
+        expect(my_pet.sleep_level()).eql?(10)
+        expect(my_pet.activity_level()).eql?(10)
       end
     end
 
