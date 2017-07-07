@@ -6,7 +6,7 @@ class Tamagotchi
 	  @@food_level = 10
 	  @@sleep_level = 10
 	  @@activity_level = 10
-	  @@ame = self
+	  @@name = self
     end
 
     def set_food_level
@@ -15,7 +15,7 @@ class Tamagotchi
 
 	def is_alive
 		if @@food_level.eql?(10)	
-	    false
+	    true
 	else
 		false
 		end
